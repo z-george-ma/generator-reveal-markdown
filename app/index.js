@@ -53,8 +53,8 @@ var generator = yeoman.generators.Base.extend({
     this.fs.copy(this.templatePath('js/**/*'), this.presentationName + '/js');
     this.fs.copy(this.templatePath('lib/**/*'), this.presentationName + '/lib');
     this.fs.copy(this.templatePath('plugin/**/*'), this.presentationName + '/plugin');
-    this.fs.copy(this.templatePath('.gitignore'), this.presentationName + '/.gitignore');
-    this.fs.copy(this.templatePath('.gitattributes'), this.presentationName + '/.gitattributes');
+    this.fs.copy(this.templatePath('gitignore'), this.presentationName + '/.gitignore');
+    this.fs.copy(this.templatePath('gitattributes'), this.presentationName + '/.gitattributes');
     this.fs.copy(this.templatePath('Gruntfile.js'), this.presentationName + '/Gruntfile.js');
     this.fs.copy(this.templatePath('slides.md'), this.presentationName + '/slides.md');
   }
