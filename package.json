@@ -1,0 +1,24 @@
+{
+  "name": "generator-reveal-markdown",
+  "version": "1.0.0",
+  "description": "Yeoman generator for reveal.js presentation from markdown files",
+  "files": [
+    "app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-george-ma/generator-reveal-markdown.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "George Ma",
+  "license": "ISC",
+  "homepage": "https://github.com/z-george-ma/generator-reveal-markdown#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.21.2"
+  }
+}
